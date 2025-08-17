@@ -1,0 +1,10 @@
+services:
+  samba:
+    image: dperson/samba
+    command: >
+      sh -c "mkdir -p ${SAMBA_DIR_STRUCTURE} && /usr/bin/samba.sh ${SAMBA_USERS} ${SAMBA_SHARES}"
+    ports:
+      - "139:139"
+      - "445:445"
+    volumes:
+      - "${NAS_DATA_PATH}:/mount"
