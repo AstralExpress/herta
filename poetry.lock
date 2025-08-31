@@ -16,8 +16,8 @@ pluggy = ">=1.6.0,<2.0.0"
 [package.source]
 type = "git"
 url = "https://github.com/AstralExpress/imperium"
-reference = "HEAD"
-resolved_reference = "c11a11a8265e9c55e84c9b4a177cbb9f9f936cf8"
+reference = "dev"
+resolved_reference = "656d0c31fdb735634a04b7edd79d8d0bbd7bf80f"
 
 [[package]]
 name = "pluggy"
@@ -38,4 +38,4 @@ testing = ["coverage", "pytest", "pytest-benchmark"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11"
-content-hash = "02c54de31a0f3b7f96aafd15213b67e61d78d911efd386387e734225740b36e1"
+content-hash = "58a0698e5409e8fe1dd6403815764a4ccfa80b4383320992b0304131376478c2"
